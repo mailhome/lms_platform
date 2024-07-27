@@ -16,7 +16,7 @@ export const NavbarRoutes = () => {
     return (
         <div className="flex gap-x-2 ml-auto">
             {isTeacherPage || isPlayerPage ? (
-                <Button className="mr-4">
+                <Button size="sm" variant="ghost" className="mr-4 h-8 text-sm">
                     <LogOut className="size-4 mr-2" />
                     Exit
                 </Button>
